@@ -1,8 +1,7 @@
 import './App.css';
 import React from "react"; 
 import BabyNames from "./babyNamesData.json"
-import UnorderedList from './UnorderedList';
-import InsertSearchBar from './InsertSearchBar';
+import MainFunc from './UnorderedList';
 
 function App() {
   console.log(BabyNames);
@@ -12,10 +11,8 @@ function App() {
         <h1>Baby Name Picker</h1>
       </header>
       <body>
-        < InsertSearchBar/>
-        <div className="UlContainer">
-          < UnorderedList data={BabyNames}/>
-        </div>
+        {/* < InsertSearchBar/> */}
+        <MainFunc/>
       </body>
     </html>  
   );

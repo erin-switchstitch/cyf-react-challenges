@@ -27,16 +27,19 @@ h1{
 
 .UlContainer{
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-content:center;
+  align-content: center;
 }
 
 .searchBar{
   width: 30%;
   height: 30px;
   display: flex;
-  justify-items: center;
-  align-items:center;
+  justify-content: space-around;
+  align-content:space-around;
+ 
 }
 
 ul{
